@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameDiary.Dao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fa70c25caf197f7cd28ce04e869c70a3263cd23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b8e44d4d586aaec7919683108aad8f29daa078a")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameDiary.Dao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameDiary.Dao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

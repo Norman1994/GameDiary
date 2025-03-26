@@ -24,6 +24,9 @@ builder.Services.AddDbContext<GameDiaryDbContext>(
 builder.Services.AddScoped<IDeveloperService, DeveloperService>();
 builder.Services.AddScoped<IDevelopRepository, DevelopRepository>();
 
+builder.Services.AddScoped<IPublisherService, PublisherService>();
+builder.Services.AddScoped<IPublisherRepository, PublisherRepository>();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())

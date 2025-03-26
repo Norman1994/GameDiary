@@ -15,3 +15,4 @@ C:\Users\User\source\repos\GameDiary\GameDiary.Dao\obj\Debug\net9.0\refint\GameD
 C:\Users\User\source\repos\GameDiary\GameDiary.Dao\obj\Debug\net9.0\GameDiary.Dao.pdb
 C:\Users\User\source\repos\GameDiary\GameDiary.Dao\obj\Debug\net9.0\GameDiary.Dao.genruntimeconfig.cache
 C:\Users\User\source\repos\GameDiary\GameDiary.Dao\obj\Debug\net9.0\ref\GameDiary.Dao.dll
+C:\Users\User\source\repos\GameDiary\GameDiary.Dao\obj\Debug\net9.0\GameDiary.Dao.sourcelink.json

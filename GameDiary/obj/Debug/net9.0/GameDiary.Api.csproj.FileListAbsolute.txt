@@ -200,10 +200,10 @@ C:\Users\User\source\repos\GameDiary\GameDiary\obj\Debug\net9.0\GameDiary.Api.ge
 C:\Users\User\source\repos\GameDiary\GameDiary\obj\Debug\net9.0\ref\GameDiary.Api.dll
 C:\Users\User\source\repos\GameDiary\GameDiary\bin\Debug\net9.0\GameDiary.Bll.dll
 C:\Users\User\source\repos\GameDiary\GameDiary\bin\Debug\net9.0\GameDiary.Bll.pdb
-C:\Users\User\source\repos\GameDiary\GameDiary\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\User\source\repos\GameDiary\GameDiary\bin\Debug\net9.0\Microsoft.OpenApi.dll
 C:\Users\User\source\repos\GameDiary\GameDiary\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\User\source\repos\GameDiary\GameDiary\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\User\source\repos\GameDiary\GameDiary\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\User\source\repos\GameDiary\GameDiary\obj\Debug\net9.0\GameDiary.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\source\repos\GameDiary\GameDiary\obj\Debug\net9.0\GameDiary.Api.sourcelink.json
+C:\Users\User\source\repos\GameDiary\GameDiary\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

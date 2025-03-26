@@ -15,6 +15,10 @@ namespace GameDiary.Dao
         {
         }
 
-        public DbSet<DevelopEntity> Developers { get; set; }    
+        public GameDiaryDbContext() { } 
+
+        public DbSet<DevelopEntity> Developers { get; set; }   
+        
+        public DbSet<PublisherEntity> Publishers { get; set; }
     }
 }

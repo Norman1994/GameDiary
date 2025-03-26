@@ -13,3 +13,4 @@ C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\GameDiary.Bl
 C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\refint\GameDiary.Bll.dll
 C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\GameDiary.Bll.pdb
 C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\ref\GameDiary.Bll.dll
+C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\GameDiary.Bll.sourcelink.json
