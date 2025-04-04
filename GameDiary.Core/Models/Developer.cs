@@ -19,6 +19,8 @@ namespace GameDiary.Core.Models
 
         public string Name { get; set; } = string.Empty;
 
+        public List<GameDeveloper> GameDeveloper { get; init; } = new();
+
         public static (Developer Developer, string error) Create(Guid id, string name)
         {
             var error = string.Empty;

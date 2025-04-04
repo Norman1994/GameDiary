@@ -11,5 +11,7 @@ namespace GameDiary.Dao.Entities
         public Guid Id { get; set; }
 
         public string Name { get; set; } = string.Empty;
+
+        public List<GamePublisherEntity> GamePublisher { get; init; } = new();
     }
 }

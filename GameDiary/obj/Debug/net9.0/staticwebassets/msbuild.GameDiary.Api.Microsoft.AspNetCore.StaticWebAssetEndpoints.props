@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\GameDiary.Api.wgplm4euv7.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0MUoviDJFJ7DiaVYi5YfmPy6L\u002B8oXxHgNgqdhcBuGYI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220MUoviDJFJ7DiaVYi5YfmPy6L\u002B8oXxHgNgqdhcBuGYI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Mar 2025 12:40:04 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220MUoviDJFJ7DiaVYi5YfmPy6L\u002B8oXxHgNgqdhcBuGYI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 15:08:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GameDiary.Api/GameDiary.Api.wgplm4euv7.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\GameDiary.Api.wgplm4euv7.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wgplm4euv7"},{"Name":"integrity","Value":"sha256-0MUoviDJFJ7DiaVYi5YfmPy6L\u002B8oXxHgNgqdhcBuGYI="},{"Name":"label","Value":"_content/GameDiary.Api/GameDiary.Api.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220MUoviDJFJ7DiaVYi5YfmPy6L\u002B8oXxHgNgqdhcBuGYI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Mar 2025 12:40:04 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220MUoviDJFJ7DiaVYi5YfmPy6L\u002B8oXxHgNgqdhcBuGYI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 15:08:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GameDiary.Api/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

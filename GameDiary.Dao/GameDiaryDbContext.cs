@@ -1,4 +1,6 @@
-﻿using GameDiary.Dao.Entities;
+﻿using GameDiary.Core.Models;
+using GameDiary.Dao.Configurations;
+using GameDiary.Dao.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -20,5 +22,18 @@ namespace GameDiary.Dao
         public DbSet<DevelopEntity> Developers { get; set; }   
         
         public DbSet<PublisherEntity> Publishers { get; set; }
+
+        public DbSet<GameEntity> Games { get; set; }
+
+        public DbSet<GameDeveloperEntity> GameDeveloperEntities { get; set; }
+
+        public DbSet<GamePublisherEntity> GamePublisherEntities { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new GameDeveloperConfiguration());
+            modelBuilder.ApplyConfiguration(new GamePublisherConfiguration());
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

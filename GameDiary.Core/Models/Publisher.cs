@@ -18,6 +18,8 @@ namespace GameDiary.Core.Models
 
         public string Name { get; set; } = string.Empty;
 
+        public List<GamePublisher> GamePublisher { get; init; } = new();
+
         public static (Publisher Publisher, string error) Create(Guid id, string name)
         {
             var error = string.Empty;

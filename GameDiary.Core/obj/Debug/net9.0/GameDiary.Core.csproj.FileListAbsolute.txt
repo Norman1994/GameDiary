@@ -5,8 +5,8 @@ C:\Users\User\source\repos\GameDiary\GameDiary.Core\obj\Debug\net9.0\GameDiary.C
 C:\Users\User\source\repos\GameDiary\GameDiary.Core\obj\Debug\net9.0\GameDiary.Core.AssemblyInfoInputs.cache
 C:\Users\User\source\repos\GameDiary\GameDiary.Core\obj\Debug\net9.0\GameDiary.Core.AssemblyInfo.cs
 C:\Users\User\source\repos\GameDiary\GameDiary.Core\obj\Debug\net9.0\GameDiary.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\GameDiary\GameDiary.Core\obj\Debug\net9.0\GameDiary.Core.sourcelink.json
 C:\Users\User\source\repos\GameDiary\GameDiary.Core\obj\Debug\net9.0\GameDiary.Core.dll
 C:\Users\User\source\repos\GameDiary\GameDiary.Core\obj\Debug\net9.0\refint\GameDiary.Core.dll
 C:\Users\User\source\repos\GameDiary\GameDiary.Core\obj\Debug\net9.0\GameDiary.Core.pdb
 C:\Users\User\source\repos\GameDiary\GameDiary.Core\obj\Debug\net9.0\ref\GameDiary.Core.dll
-C:\Users\User\source\repos\GameDiary\GameDiary.Core\obj\Debug\net9.0\GameDiary.Core.sourcelink.json

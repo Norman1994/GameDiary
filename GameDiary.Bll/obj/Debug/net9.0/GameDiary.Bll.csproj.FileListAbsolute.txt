@@ -8,9 +8,9 @@ C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\GameDiary.Bl
 C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\GameDiary.Bll.AssemblyInfoInputs.cache
 C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\GameDiary.Bll.AssemblyInfo.cs
 C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\GameDiary.Bll.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\GameDiary.Bll.sourcelink.json
 C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\GameDiar.044D5EE0.Up2Date
 C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\GameDiary.Bll.dll
 C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\refint\GameDiary.Bll.dll
 C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\GameDiary.Bll.pdb
 C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\ref\GameDiary.Bll.dll
-C:\Users\User\source\repos\GameDiary\GameDiary.Bll\obj\Debug\net9.0\GameDiary.Bll.sourcelink.json

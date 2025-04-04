@@ -1,4 +1,5 @@
-﻿using GameDiary.Dao.Entities;
+﻿using GameDiary.Core.Models;
+using GameDiary.Dao.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
