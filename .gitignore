@@ -1,1 +1,10 @@
 .vs/GameDiary/
+.vs/
+GameDiary.Bll/bin/Debug/net9.0/
+GameDiary.Bll/obj/Debug/net9.0/
+GameDiary.Core/bin/Debug/
+GameDiary.Core/obj/Debug/net9.0/
+GameDiary.Dao/bin/Debug/net9.0/
+GameDiary.Dao/obj/Debug/net9.0/
+GameDiary/bin/Debug/net9.0/
+GameDiary/obj/Debug/net9.0/
