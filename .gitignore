@@ -2,9 +2,11 @@
 .vs/
 GameDiary.Bll/bin/
 GameDiary.Bll/obj/
+GameDiary.Bll/obj/Debug/net9.0/
 GameDiary.Core/bin/
 GameDiary.Core/obj/
 GameDiary.Dao/bin/
 GameDiary.Dao/obj/
 GameDiary/bin/Debug/
 GameDiary/obj/Debug/
+GameDiary/obj/
