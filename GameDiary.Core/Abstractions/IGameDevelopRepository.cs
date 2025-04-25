@@ -9,7 +9,7 @@ namespace GameDiary.Core.Abstractions
 {
     public interface IGameDevelopRepository
     {
-        Task<Guid> Add(GameDeveloper gameDeveloper);
+        Task Add(GameDeveloper gameDeveloper);
 
         Task<Guid> Update(Guid gameId, Game developId);
     }

@@ -1,3 +1,4 @@
+using GameDiary.Bll.Mapping;
 using GameDiary.Bll.Services;
 using GameDiary.Core.Abstractions;
 using GameDiary.Core.Models;
@@ -21,11 +22,22 @@ builder.Services.AddDbContext<GameDiaryDbContext>(
         options.UseNpgsql(builder.Configuration.GetConnectionString(nameof(GameDiaryDbContext)));
     });
 
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
 builder.Services.AddScoped<IDeveloperService, DeveloperService>();
 builder.Services.AddScoped<IDevelopRepository, DevelopRepository>();
 
 builder.Services.AddScoped<IPublisherService, PublisherService>();
 builder.Services.AddScoped<IPublisherRepository, PublisherRepository>();
+
+builder.Services.AddScoped<IGameService, GameService>();
+builder.Services.AddScoped<IGameRepository, GameRepository>();
+
+builder.Services.AddScoped<IGameDeveloperService, GameDeveloperService>();
+builder.Services.AddScoped<IGameDevelopRepository, GameDevelopRepository>();
+
+builder.Services.AddScoped<IGamePublisherRepository, GamePublisherRepository>();
+builder.Services.AddScoped<IGamePublisherRepository, GamePublisherRepository>();
 
 var app = builder.Build();
 

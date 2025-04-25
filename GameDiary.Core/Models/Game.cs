@@ -8,6 +8,8 @@ namespace GameDiary.Core.Models
 {
     public class Game 
     {
+        public Game() { }
+
         public Game(Guid id, string name, decimal rating, GameStatus status, bool isLoving) 
         { 
             Id = id;
@@ -27,9 +29,9 @@ namespace GameDiary.Core.Models
 
         public bool IsLoving { get; set; }
 
-        public List<GameDeveloper> Developers { get; set; } = new();
+        public List<GameDeveloper> GameDevelopers { get; set; } = new();
 
-        public List<GamePublisher> Publishers { get; set; } = new();
+        public List<GamePublisher> GamePublishers { get; set; } = new();
 
         public static (Game game, string error) Create(Guid id, string name, decimal rating, GameStatus status, bool isLoving)
         {

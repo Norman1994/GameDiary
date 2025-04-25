@@ -9,6 +9,8 @@ namespace GameDiary.Core.Models
 {
     public class GameDeveloper
     {
+        public GameDeveloper() { }
+
         public GameDeveloper(Guid gameId, Guid developId) 
         { 
             GameId = gameId;
@@ -21,7 +23,7 @@ namespace GameDiary.Core.Models
 
         public Guid DevelopId { get; set; } 
 
-        public Developer Developer { get; set; }
+        public Developer DeveloperEntity { get; set; }
 
         public static (GameDeveloper gameDeveloper, string error) Create(Guid gameId, Guid developId)
         {

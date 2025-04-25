@@ -9,6 +9,7 @@ namespace GameDiary.Core.Models
 {
     public class Developer
     {
+
         private Developer(Guid id, string name) 
         { 
             Id = id;

@@ -34,6 +34,9 @@
             "projectReferences": {
               "C:\\Users\\User\\source\\repos\\GameDiary\\GameDiary.Core\\GameDiary.Core.csproj": {
                 "projectPath": "C:\\Users\\User\\source\\repos\\GameDiary\\GameDiary.Core\\GameDiary.Core.csproj"
+              },
+              "C:\\Users\\User\\source\\repos\\GameDiary\\GameDiary.Dao\\GameDiary.Dao.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\GameDiary\\GameDiary.Dao\\GameDiary.Dao.csproj"
               }
             }
           }
@@ -53,6 +56,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -118,6 +127,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -188,6 +203,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.3, )"
@@ -279,6 +298,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

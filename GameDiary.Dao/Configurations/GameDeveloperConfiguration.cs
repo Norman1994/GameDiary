@@ -16,7 +16,7 @@ namespace GameDiary.Dao.Configurations
             builder.HasKey(gd => new { gd.GameId, gd.DeveloperId });
 
             builder.HasOne(gd => gd.GameEntity).
-                WithMany(x => x.Developers).
+                WithMany(x => x.GameDevelopers).
                 HasForeignKey(gd => gd.GameId).
                 OnDelete(DeleteBehavior.Cascade);
 

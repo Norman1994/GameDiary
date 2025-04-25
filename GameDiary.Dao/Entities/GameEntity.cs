@@ -19,8 +19,8 @@ namespace GameDiary.Dao.Entities
 
         public bool IsLoving { get; set; }
 
-        public List<GameDeveloperEntity> Developers { get; set; } = new();
+        public List<GameDeveloperEntity> GameDevelopers { get; set; } = new();
 
-        public List<GamePublisherEntity> Publishers { get; set; } = new();
+        public List<GamePublisherEntity> GamePublishers { get; set; } = new();
     }
 }

@@ -8,6 +8,8 @@ namespace GameDiary.Core.Models
 {
     public class GamePublisher
     {
+
+        public GamePublisher() { }
         public GamePublisher(Guid gameId, Guid publisherId) 
         { 
             GameId = gameId;
@@ -16,11 +18,11 @@ namespace GameDiary.Core.Models
 
         public Guid GameId { get; set; }
 
-        public Game? Game { get; set; }
+        public Game Game { get; set; }
 
         public Guid PublisherId { get; set; }
 
-        public Publisher? Publisher { get;set; }
+        public Publisher PublisherEntity { get;set; }
 
         public static (GamePublisher gamePublisher, string error) Create(Guid gameId, Guid publisherId)
         {

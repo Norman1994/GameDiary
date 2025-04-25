@@ -16,13 +16,13 @@ namespace GameDiary.Dao.Configurations
             builder.HasKey(gd => new { gd.GameId, gd.PublisherId });
 
             builder.HasOne(g => g.GameEntity).
-                WithMany(x => x.Publishers)
+                WithMany(x => x.GamePublishers)
                 .HasForeignKey(x => x.GameId)
                 .OnDelete(DeleteBehavior.Cascade);
 
             builder.HasOne(g => g.PublisherEntity).
                 WithMany(x => x.GamePublisher)
-                .HasForeignKey(y => y.GameId)
+                .HasForeignKey(y => y.PublisherId)
                 .OnDelete(DeleteBehavior.Cascade);
         }
     }
